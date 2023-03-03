@@ -1,0 +1,69 @@
+@import "1 vars.sass"
+@import "2 media-mix.sass"
+/* Utils classes */
+.body-stop
+	overflow: hidden !important
+.hidden
+	display: none
+/* UI */
+/* BUTTON */
+// button1
+.button1
+    font-size: 16px
+    font-weight: 500
+    line-height: 24px
+    transition: 0.2s ease
+// button1-2
+.button1-2
+    @extend .button1
+    color: #fff
+    background: #2E57FA
+    border: 1px solid #0637F9
+    &:hover
+        background: #0637F9
+    &:disabled
+        background: transparent
+        color: #AAAFBD
+        border-color: #AAAFBD
+// button-1-2-2
+.button1-2-2
+    @extend .button1-2
+    text-decoration: underline
+// button1-3
+.button1-3
+    @extend .button1
+    color: #37393D
+    background: #fff
+    border: 1px solid #D0D3DA
+    &:hover
+        background: #EBECEF
+// button1-4
+.button1-4
+    @extend .button1
+    color: #37393D
+    &:hover
+        background: #EBECEF
+// button1-5
+.button1-5
+    @extend .button1
+    color: #2E57FA
+    &:hover
+        color: #0637F9
+// button1-sizes
+.button1-size1
+    padding: 8px 20px
+.button1-size2
+    padding: 4px 16px
+.button1-size3
+    padding: 2px 16px
+/* BUTTON TOGGLE */
+// buttontog1
+.buttontog1
+    color: #37393D
+    font-size: 13px
+    border: 1px solid #D0D3DA
+// buttontog1-2
+.buttontog1-2
+    @extend .buttontog1
+    border-top-left-radius: 5px
+    border-bottom-left-radius: 5px

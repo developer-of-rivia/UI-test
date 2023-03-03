@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Название сайта</title>
+	<link rel="icon" href="https://example.com/favicon.ico" type="image/x-icon">
+	<!-- Styles -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<!-- build:css -->
+	<!-- Все стили помещаются внтурь комментария build -->
+	<!-- Slick slider CSS -->
+	<link rel="stylesheet" href="libs/slick-slider/slick.css">
+	<!-- Magnific Popup CSS -->
+	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css">
+	<!-- Google Fonts roboto -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900|Rubik:500,700,900&subset=latin,cyrillic" rel="stylesheet">
+	<!-- Базовые стили CSS -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- endbuild -->
+</head>
+<body>
+
+
+    <ul class="treevertical">
+        <li>Главное меню
+          <ul>
+           <li>База знаний
+                <ul>
+                    <li>Компоненты</li>
+                    <li>Плагины</li>
+                    <li>Модули</li>
+                </ul>
+            </li>
+            <li>Отзывы</li>
+            <li>Контакты</li>
+          </ul>
+        </li>
+    </ul>
+	
+
+
+    <style>
+        .treevertical,
+        .treevertical ul {
+        position: relative;  display: table; margin: 5px 0 0 0 !important;
+        padding: 6px 0 0 0 !important; line-height: normal; text-align: center;
+        word-wrap: break-word; word-break: break-all;}
+        .treevertical li { position: relative; display: table-cell;}
+        /* Отступ между пунктами */
+        .treevertical li:not(:only-child) {padding: 0 .5em;}
+        .treevertical li:last-child {padding-right: 0;}
+        .treevertical li:first-child {padding-left: 0;}
+        /* Стили линий */
+        .treevertical ul:before,
+        .treevertical ul li:before,
+        .treevertical ul li:after {
+        content: ""; position: absolute; top: -5px; left: 0;
+        width: 50%; height: 5px; border-right: 1px solid #999;}
+        .treevertical ul:before {top: -4px;}
+        .treevertical ul li:not(:only-child):before {border-top: 1px solid #999;}
+        .treevertical ul li:not(:only-child):first-child:before {
+        right: 0; left: auto; border-left: 1px solid #999; border-right: none;}
+        .treevertical ul li:not(:only-child):first-child:before,
+        .treevertical ul li:not(:only-child):last-child:before {
+        width: calc(50% + .5em/2);
+        }
+        .treevertical ul li:after {border: none;}
+        .treevertical ul li:not(:last-child):not(:first-child):after {
+        width: 100%; border-top: 1px solid #999;
+        }
+    </style>
+
+
+	
+
+
+
+	<!-- Scripts -->
+	<!-- build:js -->
+	<!-- jQuery -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<!-- Slick slider JS -->
+	<script src="libs/slick-slider/slick.min.js"></script>
+	<!-- Magnific Popup JS -->
+	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<!-- Базовые скрипты javascript -->
+	<script src="js/main.js"></script>
+	<!-- endbuild -->
+</body>
+
+</html>

@@ -1,0 +1,242 @@
+@charset "UTF-8";
+/* reset */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow: hidden visible;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+input, button, textarea {
+  outline: none;
+}
+
+button {
+  border: none;
+}
+
+ul li:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+ul li:first-child {
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.text p:last-child {
+  margin-bottom: 0;
+}
+
+a, button {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* для маленьких мониторов и больших планшетов и обычных планшетов в горизонтальной ротации */
+/* т.е мониторы и плашеты (1024-1260) */
+@media screen and (max-width: 1260px) {
+  .container {
+    width: 950px;
+  }
+}
+
+/* для обычных планшетов в вертикальной ротации */
+/* т.е плашеты (650-991) */
+@media screen and (max-width: 991px) {
+  .container {
+    width: 620px;
+  }
+}
+
+/* для телефонов */
+/* т.е телефоны (320-650) */
+@media screen and (max-width: 650px) {
+  .container {
+    width: 290px;
+  }
+}
+
+/* Utils classes */
+.body-stop {
+  overflow: hidden !important;
+}
+
+.hidden {
+  display: none;
+}
+
+/* UI */
+/* BUTTON */
+.button1, .button1-2, .button1-2-2, .button1-3, .button1-4, .button1-5 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  transition: 0.2s ease;
+}
+
+.button1-2, .button1-2-2 {
+  color: #fff;
+  background: #2E57FA;
+  border: 1px solid #0637F9;
+}
+
+.button1-2:hover, .button1-2-2:hover {
+  background: #0637F9;
+}
+
+.button1-2:disabled, .button1-2-2:disabled {
+  background: transparent;
+  color: #AAAFBD;
+  border-color: #AAAFBD;
+}
+
+.button1-2-2 {
+  text-decoration: underline;
+}
+
+.button1-3 {
+  color: #37393D;
+  background: #fff;
+  border: 1px solid #D0D3DA;
+}
+
+.button1-3:hover {
+  background: #EBECEF;
+}
+
+.button1-4 {
+  color: #37393D;
+}
+
+.button1-4:hover {
+  background: #EBECEF;
+}
+
+.button1-5 {
+  color: #2E57FA;
+}
+
+.button1-5:hover {
+  color: #0637F9;
+}
+
+.button1-size1 {
+  padding: 8px 20px;
+}
+
+.button1-size2 {
+  padding: 4px 16px;
+}
+
+.button1-size3 {
+  padding: 2px 16px;
+}
+
+/* BUTTON TOGGLE */
+.buttontog1, .buttontog1-2 {
+  color: #37393D;
+  font-size: 13px;
+  border: 1px solid #D0D3DA;
+}
+
+.buttontog1-2 {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+/* Body */
+/* Заголовки */
+.title--def {
+  color: #000;
+}
+
+/* Кнопки */
+.btn--def {
+  display: inline-block;
+}
+
+.btn--def:hover {
+  display: inline-block;
+}
+
+/* Текст */
+.text--def {
+  color: #000;
+}
+
+.text-area p:last-child {
+  margin-bottom: 0;
+}
+
+/* Табы */
+.tabs__links--def {
+  display: flex;
+}
+
+.tabs__link--def {
+  display: inline-block;
+}
+
+/* Слайдер */
+.slider-arrows--def {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-dots--def .slick-dots {
+  display: flex;
+  justify-content: center;
+}
+
+.slider-dots--def .slick-dots li {
+  margin: 0 5px;
+}
+
+.slider-dots--def .slick-dots li button {
+  display: inline-block;
+  background: gray;
+  font-size: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.slider-dots--def .slick-dots li.slick-active button {
+  background: green;
+}
+
+.slick-arrow {
+  cursor: pointer;
+}
+
+/* strukture */
