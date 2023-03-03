@@ -96,31 +96,39 @@ a, button {
 
 /* UI */
 /* BUTTON */
-.button1, .button1-2, .button1-2-2, .button1-3, .button1-4, .button1-5 {
+.button1, .button1-2, .button1-2-2, .button1-2-2-2, .button1-2-3, .button1-3, .button1-4, .button1-5 {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   transition: 0.2s ease;
 }
 
-.button1-2, .button1-2-2 {
+.button1-2, .button1-2-2, .button1-2-2-2, .button1-2-3 {
   color: #fff;
   background: #2E57FA;
   border: 1px solid #0637F9;
 }
 
-.button1-2:hover, .button1-2-2:hover {
+.button1-2:hover, .button1-2-2:hover, .button1-2-2-2:hover, .button1-2-3:hover {
   background: #0637F9;
 }
 
-.button1-2:disabled, .button1-2-2:disabled {
+.button1-2:disabled, .button1-2-2:disabled, .button1-2-2-2:disabled, .button1-2-3:disabled {
   background: transparent;
   color: #AAAFBD;
   border-color: #AAAFBD;
 }
 
-.button1-2-2 {
+.button1-2-2, .button1-2-2-2 {
   text-decoration: underline;
+}
+
+.button1-2-2-2 {
+  border-radius: 30px;
+}
+
+.button1-2-3 {
+  border-radius: 30px;
 }
 
 .button1-3 {
