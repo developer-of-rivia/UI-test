@@ -169,16 +169,33 @@ a, button {
   padding: 2px 16px;
 }
 
-/* BUTTON TOGGLE */
-.buttontog1, .buttontog1-2 {
-  color: #37393D;
-  font-size: 13px;
-  border: 1px solid #D0D3DA;
+/* CHECKBOXES */
+.checkbox1, .checkbox1-2 {
+  display: flex;
+  align-items: center;
 }
 
-.buttontog1-2 {
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+.checkbox1-2 input[type=checkbox] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.checkbox1-2 input[type=checkbox]:hover {
+  display: inline-block;
+}
+
+.checkbox1-2 input[type=checkbox]:checked {
+  background: limegreen;
+}
+
+.checkbox1-2 input[type=checkbox]:disabled {
+  filter: grayscale(80%);
 }
 
 /* Body */

@@ -22,16 +22,178 @@
 </head>
 <body>
 
+<body class="typography-page">
 
-	<a href="#" class="button1-2 button1-size1">Button</a>
-	<a href="#" class="button1-2-2 button1-size1">Button</a>
-	<a href="#" class="button1-3 button1-size2">Button</a>
-	<a href="#" class="button1-4 button1-size3">Button</a>
-	<a href="#" class="button1-5 button1-size1">Button</a>
+
+
+
+
+
+	<!-- checkbox -->
+	<!-- checkbox -->
+	<!-- checkbox -->
+	<h2>Чекбоксы</h2>
+	<label class="checkbox1-2">
+		<input type="checkbox" checked>
+		<div class="checkbox1-2__content">
+			Сразу нажатый
+		</div>
+	</label>
+	<label class="checkbox1-2">
+		<input type="checkbox">
+		<div class="checkbox1-2__content">
+			Обычный
+		</div>
+	</label>
+	<label class="checkbox1-2">
+		<input type="checkbox" disabled>
+		<div class="checkbox1-2__content">
+			Выключенный
+		</div>
+	</label>
+	<label class="checkbox1-2">
+		<input type="checkbox" checked disabled>
+		<div class="checkbox1-2__content">
+			Выключенный нажатый
+		</div>
+	</label>
+
+
+
+
+
+
+
+
+
+
 	
 
+	<!-- input -->
+	<h2>Инпут и текстареа</h2>
+	<div class="__cell">
+		<input type="text" class="field--def __input">
+	</div>
+	<!-- textarea -->
+	<div class="__cell">
+		<input type="text" class="field--def __textarea">
+	</div>
 
-	
+
+	<!-- radio -->
+	<!-- radio -->
+	<!-- radio -->
+	<h2>Радиокнопки</h2>
+	<div class="radio">
+		<input id="radio-1" type="radio" name="radio" value="1" checked>
+		<label for="radio-1">Нажатая</label>
+	</div>
+	<div class="radio">
+		<input id="radio-2" type="radio" name="radio" value="2">
+		<label for="radio-2">Обычная</label>
+	</div>
+	<div class="radio">
+		<input id="radio-4" type="radio" name="radio" value="4" disabled>
+		<label for="radio-4">Выключенная</label>
+	</div>
+
+
+	<!-- tumbler -->
+	<!-- tumbler -->
+	<!-- tumbler -->
+	<h2>Тамблеры</h2>
+	<label class="tumbler">
+		<div class="tumbler__text">тамблер</div>
+		<input type="checkbox">
+		<span class="tumbler__switch"></span>
+	</label>
+
+
+
+	<h2>Кастомный селект</h2>
+	<div class="select __select">
+		<div class="select__head">
+			<img src="" class="select__chosed-icon">
+			<span>Выберите опцию</span>
+			<img src="img/ungle-down.png" class="select__ungle">
+		</div>
+		<div class="select__box">
+			<div class="select__item">
+				<img src="img/checkbox-checkmark.png">
+				<span>Опция 1</span>
+			</div>
+			<div class="select__item">
+				<img src="img/burger-icon.png">
+				<span>Опция 2</span>
+			</div>
+			<div class="select__item">
+				<img src="img/burger-icon.png">
+				<span>Опция 3</span>
+			</div>
+			<div class="select__item">
+				<img src="img/burger-icon.png">
+				<span>Опция 4</span>
+			</div>
+		</div>
+		<div class="select__input">
+			<input type="text" hidden value="">
+		</div>
+	</div>
+
+
+
+
+	<h2>Загрузка файлов с возможность удаления</h2>
+	<!-- upload -->
+	<div class="upload">
+		<input id="myInput" type="file" multiple style="display:none" class="upload__input" />
+		<button id="myButton" type="button" class="upload__button">Нажмите, чтобы выбрать файл</button>
+	</div>
+	<div class="upload-has">
+		<div class="upload-has__files">
+			<div id="myFiles" class="myFiles"></div>
+		</div>
+		<div class="upload-has__delete">
+			Удалить
+		</div>
+	</div>
+
+
+
+
+	<h2>+- каунтер</h2>
+	<!-- counter -->
+	<div class="quantity_inner">
+		<button class="bt_minus">
+			<img src="img/icons/minus.svg">
+		</button>
+		<input type="text" value="1" size="2" class="quantity" data-max-count="20" />
+		<button class="bt_plus">
+			<img src="img/icons/plus.svg">
+		</button>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+	<style>
+		.typography-page {
+			min-height: 100vh;
+			padding: 50px;
+		}
+
+		.typography-page h2 {
+			margin: 50px 0 15px;
+		}
+	</style>
+
 
 
 
@@ -44,7 +206,7 @@
 	<!-- Magnific Popup JS -->
 	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
 	<!-- Базовые скрипты javascript -->
-	<script src="js/main.js"></script>
+	<!-- <script src="js/main.js"></script> -->
 	<!-- endbuild -->
 </body>
 

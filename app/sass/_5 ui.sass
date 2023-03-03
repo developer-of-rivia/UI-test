@@ -64,14 +64,25 @@
     padding: 4px 16px
 .button1-size3
     padding: 2px 16px
-/* BUTTON TOGGLE */
-// buttontog1
-.buttontog1
-    color: #37393D
-    font-size: 13px
-    border: 1px solid #D0D3DA
-// buttontog1-2
-.buttontog1-2
-    @extend .buttontog1
-    border-top-left-radius: 5px
-    border-bottom-left-radius: 5px
+/* CHECKBOXES */
+.checkbox1
+    display: flex
+    align-items: center
+// checkbox1-2
+.checkbox1-2
+    @extend .checkbox1
+    input[type=checkbox]
+        -webkit-appearance: none
+        -moz-appearance: none
+        display: inline-block
+        width: 22px
+        height: 22px
+        cursor: pointer
+        border: 1px solid #ccc
+        margin-right: 10px 
+    input[type=checkbox]:hover
+        display: inline-block
+    input[type=checkbox]:checked
+        background: limegreen
+    input[type=checkbox]:disabled
+        filter: grayscale(80%)
