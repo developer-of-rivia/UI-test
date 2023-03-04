@@ -172,6 +172,48 @@ a, button {
   font-size: 14px;
 }
 
+/* CHECKBOX */
+/* CHECKBOX */
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox--gap1 {
+  gap: 10px;
+}
+
+.checkbox__input--size1 {
+  width: 16px;
+  height: 16px;
+}
+
+.checkbox__input--size2 {
+  width: 20px;
+  height: 20px;
+}
+
+/* FIELDS */
+/* FIELDS */
+/* FIELDS */
+.field--size1 {
+  width: 320px;
+  height: 40px;
+}
+
+.field--size2 {
+  width: 100%;
+  height: 40px;
+}
+
+.field--bradius1 {
+  border-radius: 8px;
+}
+
+.field--border1 {
+  border: 1px solid gray;
+}
+
 /* Body */
 /* Заголовки */
 .title--def {
