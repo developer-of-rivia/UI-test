@@ -1,0 +1,25 @@
+/* CHECKBOXES */
+/* checkbox */
+.checkbox{
+    display: flex;
+    align-items: center;
+}
+.checkbox--gap1{
+    gap: 5px;
+}
+/* checkbox__input */
+.checkbox__input{
+    position: absolute;
+    opacity: 0.01;
+}
+/* checkbox__cell */
+.checkbox__cell{
+    border: 1px solid gray;
+}
+.checkbox__input:checked + .checkbox__cell{
+    background: red;
+}
+.checkbox__cell--size1{
+    width: 30px;
+    height: 30px;
+}

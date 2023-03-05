@@ -18,13 +18,14 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900|Rubik:500,700,900&subset=latin,cyrillic" rel="stylesheet">
 	<!-- Базовые стили CSS -->
 	<link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/uicss.css">
 	<!-- endbuild -->
 </head>
 <body>
 
 
 
-
+    <h1>Кнопки</h1>
     <div class="row">
         <div class="
             button
@@ -228,40 +229,12 @@
             button5
         </div>
     </div>
-
-
-
-
-
-    <!-- checkbox -->
-    <!-- checkbox -->
-    <!-- checkbox -->
-    <h2>Чекбоксы</h2>
-    <div class="row">
-        <label class="checkbox checkbox--gap1">
-            <input class="checkbox__input checkbox__input--size1" type="checkbox">
-            <div class="checkbox__content">
-                Чекбокс
-            </div>
-        </label>
-    </div>
-    <div class="row">
-        <label class="checkbox">
-            <input class="checkbox__input checkbox__input--size2" type="checkbox">
-            <div class="checkbox__content">
-                Чекбокс
-            </div>
-        </label>
-    </div>
-
-
-
 
 
     <!-- input -->
     <!-- input -->
     <!-- input -->
-	<h2>Инпут и текстареа</h2>
+	<h1>Инпут и текстареа</h1>
     <div class="row">
         <div class="field-cell">
             <input type="text" class="field field--size1 field--bradius1 field--border1">
@@ -276,6 +249,40 @@
 
 
 
+    <!-- checkbox -->
+    <!-- checkbox -->
+    <!-- checkbox -->
+    <h1>Чекбоксы</h1>
+    <label class="checkbox checkbox--gap1">
+        <input type="checkbox" class="checkbox__input"/></input>
+        <div class="checkbox__cell checkbox__cell--size1"></div>
+        <div class="checkbox__text">Checkbox</div>
+    </label>
+
+
+    <div class="checkbox">
+        <input type="checkbox" id="test2" checked="checked" class="checkbox__input"/>
+        <label for="test2" class="checkbox__label">Yellow</label>
+    </div>
+    <div class="checkbox">
+        <input type="checkbox" id="test3" checked="checked" disabled="disabled" class="checkbox__input"/>
+        <label for="test3" class="checkbox__label">Green</label>
+    </div>
+    <div class="checkbox">
+        <input type="checkbox" id="test4" disabled="disabled" class="checkbox__input"/>
+        <label for="test4" class="checkbox__label">Brown</label>
+    </div>
+
+
+
+
+
+    <h1>Радиокнопки</h1>
+    <h1>Тумблер</h1>
+    <h1>Кастомный селект</h1>
+    <h1>Каунтер</h1>
+    <h1>Загрузка файлов с возможность удаления</h1>
+    <h1>Загрузка файлов с возможность удаления</h1>
 
 
 
@@ -283,7 +290,11 @@
 
 
 
-
+    <style>
+        body{
+            padding: 30px;
+        }
+    </style>
 
 	<!-- Scripts -->
 	<!-- build:js -->
