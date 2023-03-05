@@ -241,6 +241,10 @@
 .switch--struct1{
     display: inline-flex;
 }
+/* switch--gap */
+.switch--gap1{
+    gap: 10px;
+}
 /* SWITCH__AREA */
 /* switch__area--size */
 .switch__area--size1{
@@ -251,10 +255,16 @@
 .switch__area--border1{
     border: 1px solid rebeccapurple;
 }
+.switch__input:disabled + .switch__area--border1{
+    border-color: gray;
+}
 /* SWITCH__CHECKMARK */
 /* switch__checkmark--colors */
 .switch__checkmark--colors1{
     background: rebeccapurple;
+}
+.switch__input:disabled + .switch__area .switch__checkmark--colors1{
+    background: gray;
 }
 /* switch__checkmark--size */
 .switch__checkmark--size1{
