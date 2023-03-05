@@ -208,3 +208,44 @@
 .radio__cell--bradius1{
     border-radius: 5px
 }
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/*** SWITCHES ***/
+/* SWITCHES WORKS */
+.switch{
+    display: inline-flex;
+    background: #fff;
+    cursor: pointer;
+}
+.switch.switch--disabled{
+    cursor: default;
+}
+.switch__input{
+    position: absolute;
+    opacity: 0.01;
+}
+.switch__cell{
+    width: 60px;
+    height: 20px;
+    border: 1px solid #999;
+    position: relative;
+}
+.switch__checkmark{
+    width: 40%;
+    height: 80%;
+    top: 10%;
+    left: 5%;
+    display: inline-block;
+    background: tomato;
+    position: absolute;
+    transition: 0.2s ease;
+}
+.switch__input:checked + .switch__cell .switch__checkmark{
+    left: 55%
+}
