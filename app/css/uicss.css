@@ -135,6 +135,38 @@
 /**/
 /**/
 /**/
+/*** INPUTS ***/
+/* field--bradius */
+.field--bradius1{
+    border-radius: 5px;
+}
+/* field--border */
+.field--border1{
+    border: 1px solid #999;
+}
+/* field--size */
+.field--size1{
+    width: 100%;
+    height: 40px;
+}
+.field--size2{
+    width: 260px;
+    height: 40px;
+}
+/* field--pos */
+.field--pos1{
+    padding-left: 20px;
+}
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
 /**/
 /*** RADIOS ***/
 /* RADIO WORKS */
