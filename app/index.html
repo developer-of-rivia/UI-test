@@ -22,172 +22,280 @@
 </head>
 <body>
 
-<body class="typography-page">
+
+
+    <h1>Кнопки</h1>
+    <div class="row">
+        <a href="#" class="button button--struct1 button--colors1 button--size1 button--bradius1">
+            button1
+        </a>
+        <a href="#" class="button button--struct1 button--colors2 button--size2 button--bradius1">
+            button2
+        </a>
+        <a href="#" class="button button--struct1 button--colors3 button--size4 button--bradius1">
+            button3
+        </a>
+        <a href="#" class="button button--struct1 button--colors4 button--size2 button--bradius1">
+            button4
+        </a>
+        <a href="#" class="button button--struct1 button--colors5 button--size1 button--bradius1">
+            button5
+        </a>
+    </div>
+
+
+
+
+
+    <!-- input -->
+    <!-- input -->
+    <!-- input -->
+	<h1>Инпут и текстареа</h1>
+    <div class="row">
+        <input type="text" class="field field--bradius1 field--border1 field--size1 field--pos1" placeholder="input">
+    </div>
+    <div class="row">
+        <input type="text" class="field field--bradius1 field--border1 field--size2 field--pos1" placeholder="input">
+    </div>
+    
+
+
+
+
+    <!-- checkbox -->
+    <!-- checkbox -->
+    <!-- checkbox -->
+    <h1>Чекбоксы</h1>
+    <label class="checkbox checkbox--struct1 checkbox--gap1">
+        <input type="checkbox" class="checkbox__input"/>
+        <div class="checkbox__cell checkbox__cell--border1 checkbox__cell--size1 checkbox__cell--pos1 checkbox__cell--colors1">
+            <span class="checkbox__checkmark">X</span>
+        </div>
+        <div class="checkbox__text checkbox__text--color1">Checkbox</div>
+    </label>
+
+    <label class="checkbox checkbox--struct1 checkbox--gap1">
+        <input type="checkbox" class="checkbox__input" checked="checked">
+        <div class="checkbox__cell checkbox__cell--border1 checkbox__cell--size1 checkbox__cell--pos1 checkbox__cell--colors1">
+            <span class="checkbox__checkmark">X</span>
+        </div>
+        <div class="checkbox__text checkbox__text--color1">Checkbox</div>
+    </label>
+
+    <label class="checkbox checkbox--disabled checkbox--struct1 checkbox--gap1">
+        <input type="checkbox" class="checkbox__input" checked="checked" disabled="disabled">
+        <div class="checkbox__cell checkbox__cell--border1 checkbox__cell--size1 checkbox__cell--pos1 checkbox__cell--colors1">
+            <span class="checkbox__checkmark">X</span>
+        </div>
+        <div class="checkbox__text checkbox__text--color1">Checkbox</div>
+    </label>
+    
+    <label class="checkbox checkbox--disabled checkbox--struct1 checkbox--gap1">
+        <input type="checkbox" class="checkbox__input" disabled="disabled">
+        <div class="checkbox__cell checkbox__cell--border1 checkbox__cell--size1 checkbox__cell--pos1 checkbox__cell--colors1">
+            <span class="checkbox__checkmark">X</span>
+        </div>
+        <div class="checkbox__text checkbox__text--color1">Checkbox</div>
+    </label>
+
+
+    <br>
+
+    <label class="checkbox checkbox--struct1 checkbox--gap2">
+        <input type="checkbox" class="checkbox__input"/>
+        <div class="checkbox__cell checkbox__cell--border1 checkbox__cell--size2 checkbox__cell--pos1 checkbox__cell--colors2">
+            <span class="checkbox__checkmark">X</span>
+        </div>
+        <div class="checkbox__text checkbox__text--color2">Checkbox</div>
+    </label>
+
+    <label class="checkbox checkbox--struct1 checkbox--gap2">
+        <input type="checkbox" class="checkbox__input" checked="checked">
+        <div class="checkbox__cell checkbox__cell--border1 checkbox__cell--size2 checkbox__cell--pos1 checkbox__cell--colors2">
+            <span class="checkbox__checkmark">X</span>
+        </div>
+        <div class="checkbox__text checkbox__text--color2">Checkbox</div>
+    </label>
+
+    <label class="checkbox checkbox--disabled checkbox--struct1 checkbox--gap2">
+        <input type="checkbox" class="checkbox__input" checked="checked" disabled="disabled">
+        <div class="checkbox__cell checkbox__cell--border1 checkbox__cell--size2 checkbox__cell--pos1 checkbox__cell--colors2">
+            <span class="checkbox__checkmark">X</span>
+        </div>
+        <div class="checkbox__text checkbox__text--color2">Checkbox</div>
+    </label>
+    
+    <label class="checkbox checkbox--disabled checkbox--struct1 checkbox--gap2">
+        <input type="checkbox" class="checkbox__input" disabled="disabled">
+        <div class="checkbox__cell checkbox__cell--border1 checkbox__cell--size2 checkbox__cell--pos1 checkbox__cell--colors2">
+            <span class="checkbox__checkmark">X</span>
+        </div>
+        <div class="checkbox__text checkbox__text--color2">Checkbox</div>
+    </label>
+
+
+
+
+
+    <h1>Радиокнопки</h1>
+
+    <div class="row" style="margin-bottom: 25px;">
+        <label class="radio radio--struct1 radio--gap1">
+            <input type="radio" class="radio__input" name="radio1" checked="checked">
+            <div class="radio__cell radio__cell--bradius1 radio__cell--border1 radio__cell--size1 radio__cell--pos1 radio__cell--colors1">
+                <span class="radio__checkmark">X</span>
+            </div>
+            <div class="radio__text radio__text--color1">Radio 1</div>
+        </label>
+        <label class="radio radio--struct1 radio--gap1">
+            <input type="radio" class="radio__input" name="radio1">
+            <div class="radio__cell radio__cell--bradius1 radio__cell--border1 radio__cell--size1 radio__cell--pos1 radio__cell--colors1">
+                <span class="radio__checkmark">X</span>
+            </div>
+            <div class="radio__text radio__text--color1">Radio 1</div>
+        </label>
+    </div>
+
+
+    <div class="row" style="margin-bottom: 25px;">
+        <label class="radio radio--struct1 radio--gap1 radio--disabled">
+            <input type="radio" class="radio__input" name="radio2" disabled="disabled">
+            <div class="radio__cell radio__cell--bradius1 radio__cell--border1 radio__cell--size1 radio__cell--pos1 radio__cell--colors1">
+                <span class="radio__checkmark">X</span>
+            </div>
+            <div class="radio__text radio__text--color1">Radio 1</div>
+        </label>
+        <label class="radio radio--struct1 radio--gap1 radio--disabled">
+            <input type="radio" class="radio__input" name="radio2" disabled="disabled">
+            <div class="radio__cell radio__cell--bradius1 radio__cell--border1 radio__cell--size1 radio__cell--pos1 radio__cell--colors1">
+                <span class="radio__checkmark">X</span>
+            </div>
+            <div class="radio__text radio__text--color1">Radio 1</div>
+        </label>
+    </div>
+
+
+    <div class="row">
+        <label class="radio radio--struct1 radio--gap1 radio--disabled">
+            <input type="radio" class="radio__input" name="radio3" disabled="disabled" checked="checked">
+            <div class="radio__cell radio__cell--bradius1 radio__cell--border1 radio__cell--size1 radio__cell--pos1 radio__cell--colors1">
+                <span class="radio__checkmark">X</span>
+            </div>
+            <div class="radio__text radio__text--color1">Radio 1</div>
+        </label>
+        <label class="radio radio--struct1 radio--gap1 radio--disabled">
+            <input type="radio" class="radio__input" name="radio3" disabled="disabled">
+            <div class="radio__cell radio__cell--bradius1 radio__cell--border1 radio__cell--size1 radio__cell--pos1 radio__cell--colors1">
+                <span class="radio__checkmark">X</span>
+            </div>
+            <div class="radio__text radio__text--color1">Radio 1</div>
+        </label>
+    </div>
 
 
 
 
 
 
-	<!-- checkbox -->
-	<!-- checkbox -->
-	<!-- checkbox -->
-	<h2>Чекбоксы</h2>
-	<label class="checkbox1-2 checkbox1-size1">
-		<input class="checkbox1-2__input" type="checkbox">
-		<div class="checkbox1-2__content">
-			Чекбокс
-		</div>
-	</label>
-
-
-
-	<label class="checkbox1-3 checkbox1-size2">
-		<input class="checkbox1-3__input" type="checkbox">
-		<div class="checkbox1-3__content">
-			Чекбокс
-		</div>
-	</label>
-	
 
 
 
 
 
+    <h1>Переключатель</h1>
+    <div class="row">
+        <label class="switch switch--struct1 switch--gap1">
+            <input type="checkbox" class="switch__input">
+            <div class="switch__area switch__area--border1 switch__area--size1 switch__area--colors1">
+                <span class="switch__checkmark switch__checkmark--colors1 switch__checkmark--size1"></span>
+            </div>
+            <div class="switch__text switch__text--color1">switch</div>
+        </label>
+    </div>
+    <div class="row">
+        <label class="switch switch--struct1 switch--gap1 switch--disabled">
+            <input type="checkbox" class="switch__input" disabled="disabled">
+            <div class="switch__area switch__area--border1 switch__area--size1 switch__area--colors1">
+                <span class="switch__checkmark switch__checkmark--colors1 switch__checkmark--size1"></span>
+            </div>
+            <div class="switch__text switch__text--color1">switch</div>
+        </label>
+    </div>
+    <div class="row">
+        <label class="switch switch--struct1 switch--gap1 switch--disabled">
+            <input type="checkbox" class="switch__input" disabled="disabled" checked="checked">
+            <div class="switch__area switch__area--border1 switch__area--size1 switch__area--colors1">
+                <span class="switch__checkmark switch__checkmark--colors1 switch__checkmark--size1"></span>
+            </div>
+            <div class="switch__text switch__text--color1">switch</div>
+        </label>
+    </div>
 
 
 
 
 
-	
-
-	<!-- input -->
-	<h2>Инпут и текстареа</h2>
-	<div class="__cell">
-		<input type="text" class="field--def __input">
+    <h1>Каунтер</h1>
+    <div class="counter" data-counter>
+		<div class="counter__minus">-</div>
+		<div class="counter__input">
+            <input type="text" disabled value="0" data-counter-max="20">
+        </div>
+		<div class="counter__plus">+</div>
 	</div>
-	<!-- textarea -->
-	<div class="__cell">
-		<input type="text" class="field--def __textarea">
-	</div>
 
 
-	<!-- radio -->
-	<!-- radio -->
-	<!-- radio -->
-	<h2>Радиокнопки</h2>
-	<div class="radio">
-		<input id="radio-1" type="radio" name="radio" value="1" checked>
-		<label for="radio-1">Нажатая</label>
-	</div>
-	<div class="radio">
-		<input id="radio-2" type="radio" name="radio" value="2">
-		<label for="radio-2">Обычная</label>
-	</div>
-	<div class="radio">
-		<input id="radio-4" type="radio" name="radio" value="4" disabled>
-		<label for="radio-4">Выключенная</label>
-	</div>
+    <script>
+        const counters = document.querySelectorAll('[data-counter]');
+        if (counters) {
+            counters.forEach(counter => {
+                counter.addEventListener('click', e => {
+                    const target = e.target;
+
+                    if (target.closest('.counter__minus') || target.closest('.counter__plus')) {
+                        if (target.closest('.counter').querySelector('input').value == '' && (target.classList.contains('counter__button_minus') || target.classList.contains('counter__plus'))) {
+                            target.closest('.counter').querySelector('input').value = 0;
+                        }
+
+                        let value = parseInt(target.closest('.counter').querySelector('input').value);
+                        let valueMax = target.closest('.counter').querySelector('input').getAttribute('data-counter-max');
 
 
-	<!-- tumbler -->
-	<!-- tumbler -->
-	<!-- tumbler -->
-	<h2>Тамблеры</h2>
-	<label class="tumbler">
-		<div class="tumbler__text">тамблер</div>
-		<input type="checkbox">
-		<span class="tumbler__switch"></span>
-	</label>
+                        if (target.classList.contains('counter__plus')) {
+                            if(valueMax != value){
+                                value++;
+                            } 
+                        } else {
+                            --value;
+                        }
 
+                        if (value <= 0) {
+                            value = 0;
+                            target.closest('.counter').querySelector('.counter__minus').classList.add('disabled')
+                        } else {
+                            target.closest('.counter').querySelector('.counter__minus').classList.remove('disabled')
+                        }
 
-
-	<h2>Кастомный селект</h2>
-	<div class="select __select">
-		<div class="select__head">
-			<img src="" class="select__chosed-icon">
-			<span>Выберите опцию</span>
-			<img src="img/ungle-down.png" class="select__ungle">
-		</div>
-		<div class="select__box">
-			<div class="select__item">
-				<img src="img/checkbox-checkmark.png">
-				<span>Опция 1</span>
-			</div>
-			<div class="select__item">
-				<img src="img/burger-icon.png">
-				<span>Опция 2</span>
-			</div>
-			<div class="select__item">
-				<img src="img/burger-icon.png">
-				<span>Опция 3</span>
-			</div>
-			<div class="select__item">
-				<img src="img/burger-icon.png">
-				<span>Опция 4</span>
-			</div>
-		</div>
-		<div class="select__input">
-			<input type="text" hidden value="">
-		</div>
-	</div>
-
-
-
-
-	<h2>Загрузка файлов с возможность удаления</h2>
-	<!-- upload -->
-	<div class="upload">
-		<input id="myInput" type="file" multiple style="display:none" class="upload__input" />
-		<button id="myButton" type="button" class="upload__button">Нажмите, чтобы выбрать файл</button>
-	</div>
-	<div class="upload-has">
-		<div class="upload-has__files">
-			<div id="myFiles" class="myFiles"></div>
-		</div>
-		<div class="upload-has__delete">
-			Удалить
-		</div>
-	</div>
-
-
-
-
-	<h2>+- каунтер</h2>
-	<!-- counter -->
-	<div class="quantity_inner">
-		<button class="bt_minus">
-			<img src="img/icons/minus.svg">
-		</button>
-		<input type="text" value="1" size="2" class="quantity" data-max-count="20" />
-		<button class="bt_plus">
-			<img src="img/icons/plus.svg">
-		</button>
-	</div>
+                        target.closest('.counter').querySelector('input').value = value;
+                    }
+                })
+            })	
+        }
+    </script>
 
 
 
 
 
+    <h1>Загрузка файлов с возможность удаления</h1>
+    <h1>Кастомный селект</h1>
 
 
-
-
-
-
-	<style>
-		.typography-page {
-			min-height: 100vh;
-			padding: 50px;
-		}
-
-		.typography-page h2 {
-			margin: 50px 0 15px;
-		}
-	</style>
-
-
-
+    <style>
+        body{
+            padding: 30px;
+        }
+    </style>
 
 	<!-- Scripts -->
 	<!-- build:js -->
@@ -198,7 +306,7 @@
 	<!-- Magnific Popup JS -->
 	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
 	<!-- Базовые скрипты javascript -->
-	<!-- <script src="js/main.js"></script> -->
+	<script src="js/main.js"></script>
 	<!-- endbuild -->
 </body>
 
