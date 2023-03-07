@@ -85,16 +85,6 @@ a, button {
   }
 }
 
-/* Utils classes */
-.body-stop {
-  overflow: hidden !important;
-}
-
-.hidden {
-  display: none;
-}
-
-/* UI */
 /* BUTTON */
 .button {
   cursor: pointer;

@@ -1,0 +1,54 @@
+/* RADIO WORKS */
+.radio
+    cursor: pointer
+.radio.radio--disabled
+    cursor: default
+.radio__input
+    position: absolute
+    opacity: 0.01
+.radio__cell
+    position: relative
+    overflow: hidden
+.radio .radio__checkmark
+    position: absolute
+    transition: 0.2s linear
+    width: 100%
+    height: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    transform: scale(0)
+    opacity: 0
+.radio__input:checked + .radio__cell .radio__checkmark
+    transform: scale(1)
+    opacity: 1
+/* radio--gap */
+.radio--gap1
+    gap: 5px
+/* radio--struct1 */
+.radio--struct1
+    display: inline-flex
+    align-items: center
+/* radio__cell-size */
+.radio__cell--size1
+    width: 30px
+    height: 30px
+/* radio__cell-colors1 */
+.radio__cell--colors1
+    border: 1px solid burlywood
+.radio__input:checked + .radio__cell
+    background: burlywood
+.radio__input:checked + .radio__cell .radio__checkmark
+    color: green
+.radio__input:disabled + .radio__cell
+    background: gainsboro
+    border-color: gainsboro
+.radio__input:disabled + .radio__cell + .radio__text
+    color: gainsboro
+.radio__input:checked:disabled + .radio__cell
+    background: gray
+.radio__input:checked:disabled + .radio__cell .radio__checkmark
+    color: #fff
+/* radio__cell--bradius1 */
+.radio__cell--bradius1
+    border-radius: 5px
